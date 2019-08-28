@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <title>Webtech - Soluções para Internet</title>
+	<link rel="stylesheet" href="script/rotator/jshowoff.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="script/rotator/jquery-1.4.min.js"></script> 
+	<script type="text/javascript" src="script/rotator/jquery.jshowoff.min.js"></script>
+</head>
+<body>
+	<div id="pagina">
+    	<div id="corpo">
+        	<div id="topo">
+            	<div id="logo"></div>
+                <div id="msn"></div>
+                <div id="suporte_atendimento">
+                	<div id="atendimento">Atendimento e Suporte <br />(44)3262-3412</div>
+                	<div id="suporte"></div>
+                </div>
+                <div id="boneco"></div>
+            </div>
+            <div id="menu">
+                <a href="index.php"><div id="botao_home"></div></a>
+                <a href="tarifas.php"><div id="botao_tarifas"></div></a>
+                <a href="clientes.php"><div id="botao_clientes"></div></a>
+                <a href="servicos.php"><div id="botao_servicos"></div></a>
+                <a href="contato.php"><div id="botao_contato"></div></a>         
+            </div>
+            <div id="banner">
+            	<div id="rotator">                         
+                    <div id="features">
+                        <div><img src="imagens/banner/banner1.jpg" /></div>
+                        <div><img src="imagens/banner/banner2.jpg" /></div>
+                        <div><img src="imagens/banner/banner3.jpg" /></div>
+                        <div><img src="imagens/banner/banner4.jpg" /></div>
+                    </div>
+						<script type="text/javascript">		
+                            $(document).ready(function(){ $('#features').jshowoff({controlText:{play:'Play', pause:'Pausar', previous:'Anterior', next:'Próximo'}}); });
+                        </script>
+                </div>
+            </div>
+            <div id="portifolio">
+            	<div id="titulo_portifolio">Últimos Serviços</div>
+                <div id="clientes">
+                	<div id="cliente1"></div>
+                	<div id="cliente2"></div>
+                	<div id="cliente3"></div>
+                </div>
+                <div id="texto_portifolio">
+                	<div id="texto_cliente1">
+                    	<span class="nome_cliente">Sinveste</span><br />
+                        <span class="nome_tecnologia">PHP, MySQL, JavaScript, JQuery, CSS e Ajax</span><br />
+                        <span class="nome_tecnologia">Site Institucional e Sistema Administrativo</span>
+                    </div>
+                	<div id="texto_cliente2">
+                    	<span class="nome_cliente">Posto de Saúde - Prefeitura de Jussara</span><br />
+                        <span class="nome_tecnologia">PHP, MySQL, JavaScript, JQuery, CSS e Ajax</span><br />
+                        <span class="nome_tecnologia">Sistema de Controle de Medicamentos</span>
+                    </div>
+                	<div id="texto_cliente3">
+                    	<span class="nome_cliente">Cras - Assistência Social</span><br />
+                        <span class="nome_tecnologia">PHP, MySQL, JavaScript, JQuery, CSS e Ajax</span><br />
+                        <span class="nome_tecnologia">Sistema de Gerenciamento</span>
+                    </div>
+                </div>
+            </div>
+            <div id="rodape">
+            	<div id="titulo_tecnologia"><span class="titulo_tecnologia">Tecnologia que Utilizamos</span></div>
+            	<div id="tecnologias"></div>
+			</div>
+        </div>
+    </div>
+</body>
+</html>

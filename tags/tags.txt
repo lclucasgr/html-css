@@ -1,0 +1,20 @@
+<p> - Paragrafo
+</br> - Pular
+
+<h1>Titulo</h1>
+<h6></h6>
+
+
+
+
+https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065 - ver
+Novas tags
+header
+aside
+footer
+nav
+article
+main
+section
+div5
+

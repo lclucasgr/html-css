@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px;
+}
+
+#pagina {
+	width:100%;
+	height:100%;
+	background-image:url(imagens/fundo_pagina.jpg);
+	margin-top:0px;
+	margin-left:0px;
+	margin-right: 0px;
+}
+
+#corpo {
+	width:980px;
+	min-height:1184px;
+	margin:0px auto;
+	background-image:url(imagens/fundo_corpo.jpg);
+}
+
+#topo {
+	width:980px;
+	height:175px;
+	background-image:url(imagens/fundo_topo.jpg);
+	float:left;
+}
+
+#logo {
+	width:215px;
+	height:166px;
+	margin-left:7.5px;
+	margin-top:4.5px;
+	float:left;
+	background-image:url(imagens/logo.png);
+}
+
+#msn {
+	width:159px;
+	height:119px;
+	margin-left:160px;
+	margin-top:4.5px;
+	float:left;
+	background-image:url(imagens/msn.png);
+}
+
+#suporte_atendimento {
+	width:210px;
+	height:105px;
+	float:left;
+	margin-left:40px;
+	margin-top:15px;
+}
+
+#atendimento {
+	width:210px;
+	height:47px;
+	float:left;
+	font-family:arial;
+	font-size:18px;
+	color:#444343;
+	font-weight:bold;
+}
+
+#suporte {
+	width:210px;
+	height:18px;
+	margin-top:50px;
+	float:left;
+	background-image:url(imagens/suporte.png);
+}
+
+#boneco {
+	width:127px;
+	height:150px;
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+	background-image:url(imagens/boneco.png);
+	bg
+}
+
+
+#menu {
+	width:980px;
+	min-height:48px;
+	background-image:url(imagens/fundo_menu.jpg);
+	float:left;
+}
+
+#botao_home {width: 130px; /*largura objeto na tela */
+margin-left:163px;
+height:48px;
+background-image:url(imagens/botao_home.jpg);
+float:left;}
+
+#botao_home:hover{background-image:url(imagens/botao_home_hover.jpg);}
+
+#botao_tarifas {width: 130px; /*largura objeto na tela */
+margin-left:1px;
+height:48px;
+background-image:url(imagens/botao_tarifas.jpg);
+float:left;}
+
+#botao_tarifas:hover{background-image:url(imagens/botao_tarifas_hover.jpg);}
+
+#botao_clientes {width: 130px; /*largura objeto na tela */
+margin-left:1px;
+height:48px;
+background-image:url(imagens/botao_clientes.jpg);
+float:left;}
+
+#botao_clientes:hover{background-image:url(imagens/botao_clientes_hover.jpg);}
+
+#botao_servicos {width: 130px; /*largura objeto na tela */
+margin-left:1px;
+height:48px;
+background-image:url(imagens/botao_servicos.jpg);
+float:left;}
+
+#botao_servicos:hover{background-image:url(imagens/botao_servicos_hover.jpg);}
+
+#botao_contato {width: 130px; /*largura objeto na tela */
+margin-left:1px;
+height:48px;
+background-image:url(imagens/botao_contato.jpg);
+float:left;}
+
+#botao_contato:hover{background-image:url(imagens/botao_contato_hover.jpg);}
+
+#banner {
+	width:980px;
+	min-height:320px;
+	float:left;
+}
+
+#rotator {
+	width:965px;
+	min-height:314px;
+	/*margin-left:7.5px;*/
+	margin-top:5px;
+	float:left;
+}
+
+#portifolio {
+	width:965px;
+	min-height:315px;
+	margin-left:7.5px;
+	margin-top:5px;
+	background-image:url(imagens/fundo_portifolio.jpg);
+	float:left;
+}
+
+#titulo_portifolio {
+	width:915px;
+	min-height:40px;
+	float:left;
+	margin-top:5px;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	color:#444343;
+	padding-left:50px;
+}
+
+#clientes {
+	width:965px;
+	min-height:185px;
+	float:left;
+}
+
+#cliente1 {
+	width:300px;
+	min-height:185px;
+	float:left;
+	background-image:url(imagens/cliente1.jpg);
+	margin-left:16.25px;
+}
+
+#cliente2 {
+	width:300px;
+	min-height:185px;
+	float:left;
+	background-image:url(imagens/cliente2.jpg);
+	margin-left:16.25px;
+}
+
+#cliente3 {
+	width:300px;
+	min-height:185px;
+	float:left;
+	background-image:url(imagens/cliente3.jpg);
+	margin-left:16.25px;
+}
+
+#texto_portifolio {
+	width:965px;
+	min-height:60px;
+	float:left;
+	margin-top:10px;
+}
+
+#texto_cliente1 {
+	width:300px;
+	min-height:60px;
+	float:left;
+	margin-left:16.25px;
+}
+
+#texto_cliente2 {
+	width:300px;
+	min-height:60px;
+	float:left;
+	margin-left:16.25px;
+}
+
+#texto_cliente3 {
+	width:300px;
+	min-height:60px;
+	float:left;
+	margin-left:16.25px;
+}
+
+.nome_cliente {
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#444343;
+}
+
+.nome_tecnologia {
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#81a7b5;
+}
+
+#rodape {
+	width:980px;
+	min-height:260px;
+	float:left;
+	margin-top:0px;
+}
+	
+
+#titulo_tecnologia {
+	width:980px;
+	min-height:46px;
+	background-image:url(imagens/fundo_tecnologia.jpg);
+	float:left;
+	padding-top:15px;
+}
+
+.titulo_tecnologia {
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	color:#444343;
+	padding-left:50px;
+}
+
+#tecnologias {
+	width:980px;
+	min-height:260px;
+	background-image:url(imagens/tecnologias.jpg);
+	float:left;
+	margin-top:0px;
+}
+
+#conteudo {
+	width:980px;
+	min-height:610px;
+	float:left;
+	padding-top:30px;
+}
+
+.coluna_contato {
+	background:#CCC;
+	margin-top:0px;
+	width:160px;
+	height:600px;
+	float:left;
+}
+
+#coluna_conteudo_contato {
+	width:660px;
+	height:600px;
+	float:left;
+}
+
+#titulo_contato {
+	width:660px;
+	min-height:46px;
+	background-image:url(imagens/fundo_tecnologia.jpg);
+	float:left;
+	padding-top:10px;
+}
+
+#conteudo_contato {
+	width:660px;
+	float:left;
+}
+
+.campos_contato {
+	margin-top:5px;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+#titulo_localizacao {
+	width:660px;
+	min-height:46px;
+	background-image:url(imagens/fundo_tecnologia.jpg);
+	float:left;
+	padding-top:10px;
+}
+
+#conteudo_localizacao {
+	width:660px;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+
+}
+
+.texto_localizacao {
+	font-family:verdana;
+	font-size:14px;
+	color:#000;
+}
+
